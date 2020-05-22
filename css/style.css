@@ -58,8 +58,8 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 #solar_bg {
-  background: url("../images/Nomad_energy_bg.jpg");
-  background-size: 100%;
+  background: url("../images/Nomad_energy_bg.jpg") no-repeat;
+  background-size: cover;
 }
 
 /* Small Phones e.x iphone 4,5 */
@@ -88,4 +88,58 @@ body {
   #solar_bg {
     background: url("../images/nomad_mobile.jpg") no-repeat;
   }
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+#nav-bg {
+  background-color: white;
+  opacity: 55%;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.nomad-text,
+.contact-text {
+  color: #3a3d42ef;
+  font-weight: bold;
+}
+
+.nomad-text-1 {
+  color: #e0af28;
+  font-weight: bold;
+}
+
+.nomad-text-2 {
+  color: #e0af28;
+  font-weight: bolder;
+}
+
+.nomad-text-3 {
+  font-weight: bold;
+  color: white;
+}
+
+#div-color {
+  background-color: #3d7adbf6;
+  border-radius: 15px;
+}
+
+#nomad-paragraph {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+li {
+  list-style: none;
+}
+
+.img-bg {
+  border: 5px solid #3a3d42ef;
+  border-radius: 15px;
 }
