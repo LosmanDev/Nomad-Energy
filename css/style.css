@@ -57,16 +57,16 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#solar_bg {
-  background-image: url("../images/Nomad_energy_bg.jpg");
+.solar_bg {
+  background-image: url("../images/nomad_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* Small Phones e.x iphone 4,5 */
 @media only screen and (max-width: 480px) {
-  #solar_bg {
-    background-image: url("../images/nomad_mobile.jpg");
+  .solar_bg {
+    background-image: url("../images/nomad_bg_mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -74,8 +74,8 @@ body {
 
 /* Small Phones to Small tablets 481-767*/
 @media only screen and (max-width: 767px) {
-  #solar_bg {
-    background-image: url("../images/nomad_mobile.jpg");
+  .solar_bg {
+    background-image: url("../images/nomad_bg_mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -83,8 +83,8 @@ body {
 
 /* Small tablet to Big tablet 768-1023 */
 @media only screen and (max-width: 1023px) {
-  #solar_bg {
-    background-image: url("../images/nomad_mobile.jpg");
+  .solar_bg {
+    background-image: url("../images/nomad_bg_mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -92,8 +92,8 @@ body {
 
 /* Big tablet to 1200px(width smaller than 1400px row) */
 @media only screen and (max-width: 1200px) {
-  #solar_bg {
-    background-image: url("../images/nomad_mobile.jpg");
+  .solar_bg {
+    background-image: url("../images/nomad_bg_mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
