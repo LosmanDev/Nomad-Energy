@@ -57,45 +57,80 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-.solar_bg {
-  background-image: url("../Images/nomad_bg.jpg");
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-/* Small Phones e.x iphone 4,5 */
-@media only screen and (max-width: 480px) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .solar_bg {
-    background-image: url("../Images/nomad_bg_mobile.jpg");
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-image: url("../Images/nomad_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
-/* Small Phones to Small tablets 481-767*/
-@media only screen and (max-width: 767px) {
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .solar_bg {
-    background-image: url("../Images/nomad_bg_mobile.jpg");
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-image: url("../Images/nomad_mobile_small.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
   }
 }
 
-/* Small tablet to Big tablet 768-1023 */
-@media only screen and (max-width: 1023px) {
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .solar_bg {
-    background-image: url("../Images/nomad_bg_mobile.jpg");
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-image: url("../Images/nomad_mobile_small.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
   }
 }
 
-/* Big tablet to 1200px(width smaller than 1400px row) */
-@media only screen and (max-width: 1200px) {
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .solar_bg {
+    background-image: url("../Images/nomad_mobile_medium.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .solar_bg {
     background-image: url("../Images/nomad_bg_mobile.jpg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+  }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .solar_bg {
+    background-image: url("../Images/nomad_bg_mobile.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .solar_bg {
+    background-image: url("../Images/nomad_mobile_ipad.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .solar_bg {
+    background-image: url("../Images/nomad_bg.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
   }
 }
 
@@ -149,6 +184,6 @@ li {
 }
 
 .img-bg {
-  border: 5px solid #3a3d42ef;
+  border: 7px solid #3a3d42ef;
   border-radius: 15px;
 }
