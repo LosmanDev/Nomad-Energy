@@ -164,16 +164,28 @@
         </div>
       </div>
       <div class="row contact-bg mt-4">
-        <h3 class="contact-text col-md-12">
-          <span class="font-weight-bolder">Address:</span> Jidka Sodonka iyo
-          Jidka Nawawi
-        </h3>
-        <h3 class="contact-text col-md-12">
-          1da Augusto Garowe, Puntland
-        </h3>
-        <h3 class="contact-text col-md-12">
+        <h6 class="contact-text col-md-12">
+          <span class="font-weight-bolder">Address:</span> 1da Augusto Garowe,
+          Puntland
+        </h6>
+        <h6 class="contact-text col-md-12">
+          Jidka Sodonka iyo Jidka Nawawi
+        </h6>
+        <h6 class="contact-text col-md-12">
           <span class="font-weight-bolder">Contact:</span> +252 906 904 608
-        </h3>
+        </h6>
+        <div class="ml-3">
+          <img
+            class="img-fluid"
+            src="Images/Nomad_logo.png"
+            height="50px"
+            width="50px"
+            alt=""
+          />
+          <span class="contact-text"
+            >Copyright &copy; <span id="year"></span
+          ></span>
+        </div>
       </div>
     </div>
 
@@ -192,6 +204,7 @@
       $(".carousel").carousel({
         interval: 2000,
       });
+      $("#year").text(new Date().getFullYear());
     </script>
   </body>
 </html>
