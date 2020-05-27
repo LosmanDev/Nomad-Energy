@@ -182,7 +182,7 @@ body {
 }
 
 .img-bg {
-  border: 10px solid #3a3d42ef;
+  border: 10px solid rgba(255, 255, 255, 0.589);
   border-radius: 15px;
 }
 
