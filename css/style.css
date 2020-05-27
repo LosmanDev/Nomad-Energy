@@ -85,7 +85,7 @@ body {
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .solar_bg {
-    background-image: url("../Images/nomad_mobile_medium.jpg");
+    background-image: url("../Images/nomad_bg_mobile.jpg");
   }
 }
 
@@ -189,10 +189,6 @@ body {
 .contact-bg {
   background-color: #3d7adb98;
   border-radius: 15px;
-}
-
-.arrow-color {
-  color: #3a3d42ef !important;
 }
 
 .grow:hover {
