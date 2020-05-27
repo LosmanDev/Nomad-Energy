@@ -101,7 +101,7 @@ body {
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .solar_bg {
-    background-image: url("../Images/nomad_bg_mobile.jpg");
+    background-image: url("../Images/nomad_bg_x.jpg");
   }
 }
 
